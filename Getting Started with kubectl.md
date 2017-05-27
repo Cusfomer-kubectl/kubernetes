@@ -92,12 +92,13 @@ create	|endpoints
 	  	|namespaces
 		|pods
 		|replicationcontrollers
-		|services	
-		|namespaces	
+		|services
+		| secrets	
+		| namespaces	
 		| statefulsets
 		| persistentvolumes
 		| persistentvolumeclaims		
-replace |	endpoints	
+replace | endpoints	
 		|namespaces	
 		|pods	
 		|replicationcontrollers	
@@ -143,16 +144,8 @@ label	|endpoints
 		| statefulsets
 		| persistentvolumes
 		| persistentvolumeclaims
-cluster-info|	
-logs	|
-api-version|
-version |
 config  |
-apply   |
-rolling-update |
 scale |
-proxy |
-run   |
 		
 		
 		
